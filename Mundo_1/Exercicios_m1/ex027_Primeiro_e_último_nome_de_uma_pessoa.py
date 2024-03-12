@@ -1,0 +1,6 @@
+nome = str(input('digite o seu nome: ')).strip()
+print('prazer em conhecer-te \033[7:37:107m{}\033[m'.format(nome))
+n = nome.split()
+print('o seu primeiro nome é: \033[30:47m{}\033[m'.format(n[0]))
+print('o seu ultimo nome e: \033[7:30:47m{}\033[m'.format(n[len(n)-1]))
+# para saber o ultimo nome/palavra usar .format(n[len(n)-1])
